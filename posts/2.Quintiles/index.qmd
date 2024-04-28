@@ -14,21 +14,19 @@ Suppose we have ten exam scores: 55, 68, 72, 75, 81, 84, 87, 90, 95, and 98. We 
 
 **Finding the Quintiles**
 
-1.  
+1.   **Number of Data Points (n):** We have n = 10 scores.
 
-2.  
+2.  **Position of Each Quintile:** Since quintiles divide the data into fifths, we need four quantiles (one fewer than the number of groups). To find the position of each quintile, we can use the following formula:
 
-    **Number of Data Points (n):** We have n = 10 scores.
+    Position = (n \* Quintile number) / 5
 
 3.  
-
-4.  
 
     **Position of Each Quintile:** Since quintiles divide the data into fifths, we need four quantiles (one fewer than the number of groups). To find the position of each quintile, we can use the following formula:
 
     Position = (n \* Quintile number) / 5
 
-5.  
+4.  
 
 -   
 
