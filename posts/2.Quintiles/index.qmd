@@ -1,0 +1,95 @@
+---
+title: "Quintiles"
+author: "Nikhil Sharma"
+date: "2024-04-28"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+Quantiles,/Quintiles very confusing sometimes. Will look into how to calulcate them and what may went wrong with them.
+
+**Example: Exam Scores**
+
+Suppose we have ten exam scores: 55, 68, 72, 75, 81, 84, 87, 90, 95, and 98. We want to find the quintiles (i.e., the scores that divide the data into fifths).
+
+**Finding the Quintiles**
+
+1.  
+
+2.  
+
+    **Number of Data Points (n):** We have n = 10 scores.
+
+3.  
+
+4.  
+
+    **Position of Each Quintile:** Since quintiles divide the data into fifths, we need four quantiles (one fewer than the number of groups). To find the position of each quintile, we can use the following formula:
+
+    Position = (n \* Quintile number) / 5
+
+5.  
+
+-   
+
+-   First Quintile (Q1): Position = (10 \* 1) / 5 = 2nd position
+
+-   
+
+-   Second Quintile (Q2): Position = (10 \* 2) / 5 = 4th position
+
+-   
+
+-   Third Quintile (Q3): Position = (10 \* 3) / 5 = 6th position
+
+-   
+
+-   Fourth Quintile (Q4): Position = (10 \* 4) / 5 = 8th position
+
+-   
+
+**Finding the Actual Scores**
+
+Since we have the positions, we can look at the corresponding scores in our data set:
+
+-   
+
+-   Q1: The score at the 2nd position is 68. So, 20% of the scores fall below 68.
+
+-   
+
+-   Q2: The score at the 4th position is 75. So, 40% of the scores fall below 75.
+
+-   
+
+-   Q3: The score at the 6th position is 84. So, 60% of the scores fall below 84.
+
+-   
+
+-   Q4: The score at the 8th position is 90. So, 80% of the scores fall below 90.
+
+-   
+
+**Interpretation**
+
+By finding the quintiles, we can see that:
+
+-   
+
+-   The lowest 20% of scores fall below 68.
+
+-   
+
+-   The scores between 68 and 75 represent the next 20%.
+
+-   
+
+-   The middle 20% range from 75 to 84.
+
+-   
+
+-   And the top 20% of scores are above 90.
+
+-   
+
+This gives us a quick idea of how the exam scores are spread out and how students performed relative to each other.
